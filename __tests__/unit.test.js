@@ -10,7 +10,7 @@ import {
 
 // TODO - Part 2
 test('isPhoneNumber - valid phone number with area code', () => {
-  expect(isPhoneNumber('(123) 456-7890')).toBe(false);
+  expect(isPhoneNumber('(123) 456-7890')).toBe(true);
 });
 test('isPhoneNumber - valid phone number without area code', () => {
   expect(isPhoneNumber('456-7890')).toBe(true);
